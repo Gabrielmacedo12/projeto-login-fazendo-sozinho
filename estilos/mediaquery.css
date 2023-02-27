@@ -10,9 +10,11 @@ grnades telas: acima de 1200px
 */ 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    
     section#login {
         width: 768px;
     }
+    
     section#login > div#imagem {
         float: left;
         width: 30%;
@@ -26,10 +28,15 @@ grnades telas: acima de 1200px
     section#login > div#formulario > p {
         font-size: 1em;
     }
-    
+    main {
+        background-image: linear-gradient(to top, #8AABBF,#013440 );
+    }
 }
 
 @media screen and (min-width: 992px) {
+    main {
+        background-image: linear-gradient(to top, #8AABBF,#013440 );
+    }
     section#login {
         width: 900px;
     }
