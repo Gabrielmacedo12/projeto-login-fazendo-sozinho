@@ -30,7 +30,7 @@ section#login {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 255px;
     height: 500px;
     border-radius: 20px;
     transition: width 0.3s, height 0.3s;
@@ -54,6 +54,7 @@ section#login > div#formulario h2 {
 }
 section#login > div#formulario > p {
     font-size: 0.9em;
+    margin-bottom: 20px;
     
 }
 
