@@ -10,9 +10,10 @@ grnades telas: acima de 1200px
 */ 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+    /* comfigurção para tablet */
     section#login {
         width: 768px;
+        height: 300px;
     }
     
     section#login > div#imagem {
@@ -39,6 +40,7 @@ grnades telas: acima de 1200px
     }
     section#login {
         width: 900px;
+        height: 370px;
     }
 
     section#login > div#imagem {
@@ -52,6 +54,7 @@ grnades telas: acima de 1200px
     }
     section#login > div#formulario > p {
         font-size: 1.1em;
+        margin: 20px 0px;
     }
     
 
